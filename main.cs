@@ -12,7 +12,7 @@ class Program
     {
         // input
         Random random = new Random();
-        int number = random.Next(1,6);
+        int number = random.Next(1, 6);
         int input;
 
         Console.WriteLine("This program gets and compares random number and user number and answer.");
@@ -26,7 +26,7 @@ class Program
             Console.WriteLine("The number was :" + number + ".");
             Console.WriteLine("You got it!");
         }
-        else if(input>6 || input<0)
+        else if (input > 6 || input < 0)
         {
             Console.WriteLine("Input is not a number from 1 to 6!");
         }
